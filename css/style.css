@@ -3,28 +3,37 @@
 }
 
 body {
-    background-color: #000229;
+    background-color: #f3f3f3;
     display: flex;
 }
 
 .side-bar {
-    background-color: #273164;
+    background-color: #6699FF;
     width: 344px;
     height: 986px;
     position: relative;
+    float: left;
 }
 
-input[type="search"] {
+input[type="text"] {
     border-radius: 35px;
     outline: none;
+    border: 1px solid #aaa;
     width: 663px;
     height: 52px;
-    margin: 17px 0 285px;
+    margin: 17px 0 17px 285px;
     font-size: 16px;
+    background-color: rgba(209, 209, 209, 0.575);
+    padding-left: 20px;
+}
+
+input[type="text"]:focus {
+    border-color: #99FFFF;
+    box-shadow: 0 0 10px 0 #6699FF;
 }
 
 .main .footer {
-    background-color: #0F1241;
+    background-color: #87ceeb;
     width: calc(100% - 344px);
     height: 396px;
     position: absolute;
