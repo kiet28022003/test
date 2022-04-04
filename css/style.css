@@ -63,13 +63,21 @@ input[type="text"]:focus {
     margin-top: 17px;
     justify-content: space-around;
 }
+.icon{
+    display: flex;
+    justify-content: space-around;
+    width: 110px;
+}
 
-.icon-login {
+.icon-login,.icon-theme {
     border: 1px solid #6699FF;
     height: 40px;
     width: 40px;
     text-align: center;
     border-radius: 50%;
+}.icon-theme:hover{
+    background-color: rgba(170, 170, 170, 0.247);
+    cursor: pointer;
 }
 
 .icon-login:hover {
@@ -81,4 +89,7 @@ i {
     color: #6699FF;
     font-size: 18px;
     margin-top: 12px;
+}
+.product-title h2{
+    margin-left: 5.5rem;
 }
