@@ -63,24 +63,28 @@ input[type="text"]:focus {
     margin-top: 17px;
     justify-content: space-around;
 }
-.icon{
+
+.icon {
     display: flex;
     justify-content: space-around;
     width: 110px;
 }
 
-.icon-login,.icon-theme {
+.login,
+.icon-theme {
     border: 1px solid #6699FF;
     height: 40px;
     width: 40px;
     text-align: center;
     border-radius: 50%;
-}.icon-theme:hover{
+}
+
+.icon-theme:hover {
     background-color: rgba(170, 170, 170, 0.247);
     cursor: pointer;
 }
 
-.icon-login:hover {
+.login:hover {
     background-color: rgba(170, 170, 170, 0.247);
     cursor: pointer;
 }
@@ -90,6 +94,26 @@ i {
     font-size: 18px;
     margin-top: 12px;
 }
-.product-title h2{
+
+#login-register {
+    display: none;
+    width: 100px;
+    height: 60px;
+    margin-top: 10px;
+    background-color: #6699FF;
+    position: absolute;
+    box-shadow: 1px 2px 30px #87ceeb;
+    z-index: 1;
+    line-height: 28px;
+    border-radius: 10px;
+}
+
+#login-register a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+}
+
+.product-title h2 {
     margin-left: 5.5rem;
 }

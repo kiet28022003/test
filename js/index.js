@@ -36,3 +36,12 @@ function change() {
 }
 
 change();
+
+function showLogin() {
+    let show = document.getElementById("login-register");
+    if (show.style.display === "none") {
+        show.style.display = "block";
+    } else {
+        show.style.display = "none";
+    }
+}
