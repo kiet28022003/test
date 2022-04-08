@@ -9,10 +9,12 @@ body {
 
 .side-bar {
     background-color: #6699FF;
-    width: 344px;
-    height: 986px;
-    position: relative;
-    float: left;
+    width: 292px;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1060;
 }
 
 input[type="text"] {
@@ -31,11 +33,14 @@ input[type="text"]:focus {
     box-shadow: 0 0 10px 0 #6699FF;
 }
 
+.main {
+    margin-left: calc(100% - 1686px);
+}
+
 .main .footer {
     background-color: #87ceeb;
-    width: calc(100% - 344px);
+    width: 100%;
     height: 396px;
-    position: absolute;
 }
 
 .user-list {
@@ -97,14 +102,14 @@ i {
 
 #login-register {
     display: none;
-    width: 100px;
-    height: 60px;
+    width: 110px;
+    height: 80px;
     margin-top: 10px;
     background-color: #6699FF;
     position: absolute;
     box-shadow: 1px 2px 30px #87ceeb;
     z-index: 1;
-    line-height: 28px;
+    line-height: 38px;
     border-radius: 10px;
 }
 
@@ -114,6 +119,25 @@ i {
     font-size: 18px;
 }
 
-.product-title h2 {
+#login-register a button {
+    width: 110px;
+    border: none;
+    background-color: #6699FF;
+    border-radius: 10px;
+}
+
+#login-register a button:hover {
+    border: none;
+    background-color: rgba(170, 170, 170, 0.486);
+    color: white;
+}
+
+.product-title h2,
+.news-title h2 {
     margin-left: 5.5rem;
+}
+
+.col {
+    margin-left: 2.9rem;
+    margin-right: 2rem;
 }
