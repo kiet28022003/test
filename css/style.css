@@ -171,25 +171,3 @@ i {
         font-size: 34px;
     }
 } */
-
-@media only screen and (max-width: 1600px) {
-    .side-bar {
-        width: 287px;
-    }
-    .side-bar img {
-        width: 265px;
-    }
-    .side-bar .user-list p a {
-        font-size: 23px;
-    }
-    input[type="text"] {
-        width: calc(1600px - 989px);
-        height: 42px;
-    }
-    .product-title h2 {
-        font-size: 26px;
-    }
-    .feature-news h2 {
-        font-size: 26px;
-    }
-}
